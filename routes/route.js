@@ -10,19 +10,19 @@ exports.city=function(req,res){
     var title,headline;
     var imageArray=[1,2,3,4];
 
-    if(cityName==='goa'){
+    if(cityName==='Goa'){
        title="Goa";
        headline="Fun, Sunshine and Beaches";
     }
-    else if(cityName==='jaipur'){
+    else if(cityName==='Jaipur'){
        title="Jaipur";
        headline="The Pink City in colorful Rajasthan";
     }
-    else if(cityName==='mussourie'){
+    else if(cityName==='Mussourie'){
        title="Mussoorie";
        headline="The Queen of Hills";
     }
-    else if(cityName==='pondicherry'){
+    else if(cityName==='Pondicherry'){
        title="Pondicherry";
        headline="Peaceful Pondicherry, Give time a break!";
       
